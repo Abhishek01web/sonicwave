@@ -1,0 +1,13 @@
+@import "../../css-config/mixins.scss";
+
+html {
+    background: rgb(240, 242, 241);
+}
+
+.main-content {
+    max-width: calc(100% - 20px);
+    margin: 0 auto;
+    @include md {
+        max-width: 1200px;
+    }
+}
